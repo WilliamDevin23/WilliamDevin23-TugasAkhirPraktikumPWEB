@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'Breve';
+    src: url('Breve Sans Title Medium.otf');
+}
+
+* {
+    font-family: 'Breve';
+    letter-spacing: 3px;
+}
+
+body {
+    background-color: black;
+}
+
+h2, h3, label {
+    text-align: center;
+    color:white;
+}
+
+.form {
+    align-items: center;
+    display:flex;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(79,79,79,0.2);
+    margin-bottom: 15px;
+    background-color: rgb(0, 161, 0);
+}
+
+#formBeli, #formJual {
+    width:50%;
+    height:100%;
+    justify-content: center;
+    display:flex;
+    margin: 10px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#formBeli input, #formJual input {
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin: 5px;
+    width:100%;
+    height:30px;
+    font-size: 15px;
+    color:green;
+    background-color: greenyellow;
+    font-weight: bold;
+}
+
+input {
+    width:80%;
+    border: 2px solid navy;
+    border-radius: 10px;
+    background-color: cyan;
+    color:blue;
+    padding : 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btnSubmit {
+    margin: 10px;
+    width:80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: green;
+    color:white;
+    padding : 15px;
+    transition: 500ms;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btnDelete {
+    margin: 10px;
+    width:80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: red;
+    color:white;
+    padding : 15px;
+    transition: 500ms;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btnAdd {
+    margin: 10px;
+    width:80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: blue;
+    color:white;
+    padding : 15px;
+    transition: 500ms;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btnUpdate {
+    margin: 10px;
+    width:80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: yellow;
+    color:orangered;
+    padding : 15px;
+    transition: 500ms;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    margin: 10px;
+    width:80%;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: black;
+    color:white;
+    padding : 15px;
+    transition: 500ms;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    display:block;
+    padding: 15px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: white;
+    transition: 500ms;
+    margin:15px;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: none;
+    display:block;
+    padding: 15px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: 500ms;
+    color: white;
+    margin:15px;
+    font-weight: bold;
+}
+
+.formUpdate{
+    margin:20px;
+    padding:15px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(79,79,79,0.2);
+    background-color: rgb(165, 107, 0);
+}
+
+.formUpdate input {
+    margin:10px;
+    background-color: yellow;
+    color: orangered;
+    width:30%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#btnUpdateForm {
+    margin: 10px;
+    width:30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: yellow;
+    color:orangered;
+    padding : 10px;
+    transition: 500ms;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#btnUpdateForm:hover {
+    margin: 10px;
+    width:30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    padding : 10px;
+    transition: 500ms;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table {
+    width:100%;
+    font-size: 20px;
+}
+
+th, td {
+    border-radius : 20px;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(0, 255, 42);
+    font-size:25px;
+}
+
+.rowAdd {
+    border-radius : 20px;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: rgb(7, 0, 73);
+}
+
+.headRow {
+    border-radius : 20px;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: rgb(2, 73, 0);
+    color:greenyellow;
+}
